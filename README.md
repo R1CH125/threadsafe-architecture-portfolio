@@ -58,6 +58,32 @@ My responsibilities included:
 
 ---
 
+## Architecture Diagrams
+
+### Authentication State Diagram
+
+This state diagram models the authentication lifecycle including credential validation, MFA verification, retry logic, and authorization states.
+
+![Authentication State Diagram](images/state-diagram.png)
+
+---
+
+### MFA Login Sequence Flow
+
+This sequence diagram models communication between the client UI, authentication service, MFA service, and session service during secure login.
+
+![MFA Login Flow](images/mfa-login-flow.png)
+
+---
+
+### Authentication Dataflow Diagram
+
+This diagram illustrates credential verification, MFA challenge handling, session/token issuance, and secure authentication workflows.
+
+![Authentication Dataflow](images/dataflow-diagram.png)
+
+---
+
 ## Technologies & Concepts
 
 - Python
