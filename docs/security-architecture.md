@@ -7,7 +7,7 @@ The system architecture was designed around layered authentication and secure co
 ### Authentication Flow
 
 - Username/password verification
-- MFA challenge-response validation
+- MFA challenge response validation
 - Session token generation
 - Token/session persistence
 
