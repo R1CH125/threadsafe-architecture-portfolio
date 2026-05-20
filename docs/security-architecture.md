@@ -33,5 +33,5 @@ The platform architecture incorporated:
 - Secure API boundaries
 - Authentication workflow validation
 - Session management
-- Message-routing infrastructure
+- Message routing infrastructure
 - Service separation for maintainability and scalability
