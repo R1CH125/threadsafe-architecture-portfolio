@@ -1,4 +1,4 @@
-# ThreadSafe – Secure E2EE Messaging Architecture
+# ThreadSafe - Secure E2EE Messaging Architecture
 
 Portfolio repository documenting my system architecture and infrastructure design contributions to the ThreadSafe secure messaging platform.
 
@@ -58,29 +58,29 @@ My responsibilities included:
 
 ---
 
-## Architecture Diagrams
+# Architecture Diagrams
 
-### Authentication State Diagram
+## Authentication State Diagram
 
 This state diagram models the authentication lifecycle including credential validation, MFA verification, retry logic, and authorization states.
 
-![Authentication State Diagram](images/state-diagram.png)
+![Authentication State Diagram](State-Diagram.png)
 
 ---
 
-### MFA Login Sequence Flow
+## MFA Login Sequence Flow
 
 This sequence diagram models communication between the client UI, authentication service, MFA service, and session service during secure login.
 
-![MFA Login Flow](images/mfa-login-flow.png)
+![MFA Login Flow](MFA-Login-Flow.png)
 
 ---
 
-### Authentication Dataflow Diagram
+## Authentication Dataflow Diagram
 
 This diagram illustrates credential verification, MFA challenge handling, session/token issuance, and secure authentication workflows.
 
-![Authentication Dataflow](images/dataflow-diagram.png)
+![Authentication Dataflow](Dataflow-Diagram.png)
 
 ---
 
@@ -97,6 +97,14 @@ This diagram illustrates credential verification, MFA challenge handling, sessio
 - ECC
 - Distributed Systems
 - Secure Communication Protocols
+
+---
+
+## Security Architecture Documentation
+
+Additional documentation:
+
+- [Security Architecture Notes](docs/security-architecture.md)
 
 ---
 
